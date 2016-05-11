@@ -10,12 +10,9 @@ using System.Collections.Generic;
 /// </summary>
 public class Singleton : MonoBehaviour
 {
-	#region Singleton test1
 	private static Singleton instance = null;
 
-	public GameObject selectProjectWindow;
-	public GameObject projectDropdown;
-
+	public GameObject txtResult;
 
 	public static Singleton Instance
 	{
@@ -32,12 +29,7 @@ public class Singleton : MonoBehaviour
 
 	void Awake()
 	{
-		selectProjectWindow = GameObject.Find("selectProjectWindow_panel");
-
-		projectDropdown = GameObject.Find("project_dropdown");
-
+		txtResult = GameObject.Find("txtResult");
 	}
-	#endregion
-
 
 }
