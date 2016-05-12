@@ -9,7 +9,7 @@ public class PositionManager : MonoBehaviour
 
 	public static void CreateAsset()
 	{
-		// 스크립트 가능 오브젝트의 인스턴스를 새로 만ㄷ근다.
+		// 스크립트 가능 오브젝트의 인스턴스를 새로 만든다.
 		ScriptingObjects positionManager = ScriptableObject.CreateInstance<ScriptingObjects>();
 
 		// 새 오브젝트를 위한 에셋 파일을 만들고 저장한다.
